@@ -23,6 +23,31 @@ ls -a
 ls /dev/[!t]*
 
 #9
+ls -R usr
+
+#10
+cd tmp
+
+#11
+pwd
+
+#12
+date
+
+#13
+cd
+
+#14
+pwd
+
+#15
+ls -i
+
+#16
+rm -r PRUEBA/
+
+#17
+
 
 
 
