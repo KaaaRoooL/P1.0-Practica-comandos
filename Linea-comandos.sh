@@ -47,6 +47,17 @@ ls -i
 rm -r PRUEBA/
 
 #17
+mkdir dir1 dir2 dir3
+mkdir dir1/dir11
+mkdir dir3/dir31
+mkdir dir3/dir31/dir311
+mkdir dir3/dir31/dir312
+
+#18
+
+
+
+
 
 
 
