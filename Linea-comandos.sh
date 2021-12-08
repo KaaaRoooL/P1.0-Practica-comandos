@@ -103,6 +103,128 @@ ln -s PRUEBA/dir1 PRUEBA/dir3/enlacedir1
 cd PRUEBA/dir3
 mkdir enlacedir1/nuevo1
 
+#33
+cp -r bin/u* enlacedir1/nuevo1
+
+#34
+ln fich1 dir1/enlace
+ln fich1 dir2/enlace
+
+#35
+rm fich1 
+cp dir1/enlace dir3
+
+#36
+ln -s PRUEBA/dir2 PRUEBA/dir1/enlafich1
+
+#37
+cd dir1
+cp -r enlafich1 ../dir2/dir31/dir311/fich1
+
+#38
+cat fich1
+
+#39
+rm dir2/fich1
+
+#40
+rm -r *
+
+#41
+cd PRUEBA
+mkdir dir2 dir3
+ls -l
+
+#42
+chmod a-w dir2
+
+#43
+chmod 551 dir2
+
+#44
+ls -l
+
+#45
+mkdir dir2/dir21
+no se puede crear por no tener permiso de escritura
+
+#46
+chmod 751 dir2 
+mkdir dir2/dir21
+
+#47
+ls -l dir2
+
+#48
+cd dir3
+ls -lR
+
+#49
+ls -lR
+
+#50
+umask 033
+mkdir dir1
+umask 133
+touch file1
+
+#51
+mkdir dira dirb dirc dird
+
+#52
+ls -l
+
+#53
+touch uno
+chmod a-r uno
+ls -l
+rm uno
+
+#54
+
+#55
+
+#56
+
+#57
+ls -lR
+mkdir correo fuentes
+
+#58
+cd fuentes
+mkdir dir1 dir2 dir3
+
+#59
+mkdir ../correo/menus
+
+#60
+cd $HOME
+rm fuentes/*[^1]
+
+#61
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
